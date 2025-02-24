@@ -9,7 +9,7 @@ Description:Patients Registration Form
 --->
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="hw1.css"> <!-- Link to CSS file -->
+    <link rel="stylesheet" href="./HW1.CSS"> <!-- Link to CSS file -->
 
     <!-- Link to CSS file -->
     <title>New Patient Registration Form Adara Medical Clinic</title>
@@ -31,7 +31,7 @@ Description:Patients Registration Form
             </tr>
         </table>
     </header>
-    <form action="thankyou.html">
+    <form action="./thankyou.html">
         <center>
             <div class="form-container">
                 <table class="form-table">
@@ -41,8 +41,10 @@ Description:Patients Registration Form
             <tr> 
                 <td><label for="fname">First Name:</label></td>
                 <td><input type="text" id="fname" maxlength="30" required placeholder="Allan"></td>  
+               <tr>
                 <td><label for="lname">Last Name:</label></td> 
                 <td><input type="text" id="lname" maxlength="30" required placeholder="Vega"></td>
+               </tr>
             </tr>
                 <tr>
                 <td> <label for="minital">Middle Initial:</label></td>
@@ -67,14 +69,18 @@ Description:Patients Registration Form
             <tr> 
                 <td><label for="address1">Address Line 1:</label></td>
                 <td><input type="text" id="address1" name="address1" maxlength="30" required placeholder="1234 Main St."></td>
+               <tr>
                 <td><label for="address2">Address Line 2:</label></td>
                 <td><input type="text" id="address2" name="address2" maxlength="30" required placeholder="Apartment 123"></td>
+               </tr>
             </tr>
             <tr>
                 <td><label for="City">City:</label></td>
                 <td><input type="text" id="city" name="city" maxlength="30" required placeholder="San Antonio"></td>
+               <tr>
                 <td><label for="county">County</label></td>
                 <td><input type="text" id="county" name="county" maxlength="50" required placeholder="Harris County"></td>
+               </tr>
             </tr>
             <tr>
                 <td><label for="ssn">SSN:</label></td>
@@ -139,22 +145,34 @@ Description:Patients Registration Form
                     <option value="PR">Puerto Rico</option>
                     </select>
                 </tr>
-                <tr>
+                <tr> 
                     <td><label for="phone-number">Phone Number </label></td>
                     <td><input type="tel" id="phone-number" name="phone-number" maxlength="10" required placeholder="210-555-5555"></td>
+                    <tr>
                     <td><label for="email-address">Email Address </label></td>      
                     <td><input type="email" id="email-address" name="email-address" maxlength="30" required placeholder="name@domain.tld"></td>
+                   </tr>
                     <td><label for="zipcode">zipcode</label></td>
                     <td><input type="text" id="zipcode" name="zipcode" minlength="5" maxlength="10" required placeholder="77044"></td>
                 </tr>
-                <tr> 
+
+               
+               </tr>
                     <td><label for="history">Have you ever had any of 
                     <br> these conditions before?</label></td>
+                    <tr>
                     <td><input type="checkbox" id="option1" name="high-blood-pressure" value="High Blood Pressure">High Blood Pressure</td>
+                    </tr>
+                    <tr>
                     <td><input type="checkbox" id="option2" name="Measles" value="Measles">Diabetes</td>
+                    </tr>
+                    <tr>
                     <td><input type="checkbox" id="option3" name="Covid-19" value="Covid-19">Asthma</td>
+                    </tr>
                     <td><input type="checkbox" id="option4" name="Small Pox" value="Small Pox">Small Pox</td>
+                    <tr>
                     <td><input type="checkbox" id="option5" name="Tetanus" value="Tetanus">Tetanus</td>
+                    </tr>
                 <tr>
                     <td> <label for="notes"> Please Insert Additional Notes</label></td>
                     <td>
@@ -171,7 +189,7 @@ Description:Patients Registration Form
                 <tr> 
                     <td class="td1"><label for="uid">User ID:</label> </td>
                     <td><input type="text" id="UserID" name="UserID" maxlength="25" title="PLease enter a user ID:" required placeholder="Your user ID"></td>
-                    <td><input type="text" id="userid" name="userid" maxlength="25" title="PLease enter a user ID:" required placeholder="Your user ID"></td>
+                    
                   <tr>
                     <td><label for="password">Password:</label></td>
                     <td><input type="password" id="password" name="password" minlength="10" title="Please enter a password:" required></td>
@@ -194,7 +212,7 @@ Description:Patients Registration Form
         <p>Adara Medical Clinic &copy; 2025</p>
         <p> All Rights Reserved</p>
     </footer>
-    <script src="HW1.js"></script>
+    <script src="./HW1.JS"></script>
    
                 </table>
             </div>
